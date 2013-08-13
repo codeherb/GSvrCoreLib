@@ -1,0 +1,34 @@
+﻿빌드 시작: 2013-07-31 오후 11:45:49
+2 노드의 "C:\Projects\CoreLib\source\CoreLib\CoreLib.vcxproj" 프로젝트(build 대상)입니다.
+InitializeBuildStatus:
+  "Debug\CoreLib.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+ClCompile:
+  c:\DevTools\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\CoreLib.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  stdafx.cpp
+  c:\DevTools\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CoreLib.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Crypt.cpp IniFile.cpp Iocp.cpp NetworkSession.cpp Random.cpp Registry.cpp Service.cpp Stream.cpp
+  Stream.cpp
+  Service.cpp
+c:\projects\corelib\source\corelib\service.cpp(53): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\devtools\microsoft visual studio 10.0\vc\include\string.h(276) : 'wcscat' 선언을 참조하십시오.
+c:\projects\corelib\source\corelib\service.cpp(190): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\devtools\microsoft visual studio 10.0\vc\include\string.h(283) : 'wcscpy' 선언을 참조하십시오.
+  Registry.cpp
+  Random.cpp
+  NetworkSession.cpp
+c:\projects\corelib\source\corelib\networksession.cpp(128): error C2143: 구문 오류 : ')'이(가) '{' 앞에 없습니다.
+c:\projects\corelib\source\corelib\networksession.cpp(144): error C2065: 'Linger' : 선언되지 않은 식별자입니다.
+  Iocp.cpp
+  IniFile.cpp
+c:\projects\corelib\source\corelib\inifile.cpp(21): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\devtools\microsoft visual studio 10.0\vc\include\string.h(306) : 'wcsncpy' 선언을 참조하십시오.
+c:\projects\corelib\source\corelib\inifile.cpp(96): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\devtools\microsoft visual studio 10.0\vc\include\stdlib.h(645) : '_itow' 선언을 참조하십시오.
+c:\projects\corelib\source\corelib\inifile.cpp(115): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\devtools\microsoft visual studio 10.0\vc\include\stdio.h(544) : '_swprintf' 선언을 참조하십시오.
+  Crypt.cpp
+  코드를 생성하고 있습니다...
+"C:\Projects\CoreLib\source\CoreLib\CoreLib.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:06.17

@@ -1,0 +1,46 @@
+﻿빌드 시작: 2013-07-31 오후 11:45:55
+2 노드의 "C:\Projects\CoreLib\source\testClient\testClient.vcxproj" 프로젝트(build 대상)입니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\testClient.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  c:\DevTools\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Projects\CoreLib\source\CoreLib /I"C:\Projects\CoreLib\source\gtest-1.6.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\testClient.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  stdafx.cpp
+c:\projects\corelib\source\corelib\log.h(3): warning C4005: 'MAX_BUFFER_LENGTH' : 매크로 재정의
+          c:\projects\corelib\source\corelib\global.h(29) : 'MAX_BUFFER_LENGTH'의 이전 정의를 참조하십시오.
+c:\projects\corelib\source\corelib\log.h(21): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+          c:\devtools\microsoft visual studio 10.0\vc\include\swprintf.inl(97) : 'vswprintf' 선언을 참조하십시오.
+c:\projects\corelib\source\corelib\log.h(32): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\devtools\microsoft visual studio 10.0\vc\include\stdio.h(488) : '_snwprintf' 선언을 참조하십시오.
+c:\projects\corelib\source\corelib\log.h(38): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\devtools\microsoft visual studio 10.0\vc\include\stdio.h(488) : '_snwprintf' 선언을 참조하십시오.
+c:\projects\corelib\source\corelib\log.h(40): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\devtools\microsoft visual studio 10.0\vc\include\stdio.h(601) : '_wfopen' 선언을 참조하십시오.
+c:\projects\corelib\source\corelib\log.h(45): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\devtools\microsoft visual studio 10.0\vc\include\stdio.h(488) : '_snwprintf' 선언을 참조하십시오.
+  c:\DevTools\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Projects\CoreLib\source\CoreLib /I"C:\Projects\CoreLib\source\gtest-1.6.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\testClient.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt testClient.cpp TestIocp.cpp
+  TestIocp.cpp
+  testClient.cpp
+c:\projects\corelib\source\testclient\include\testclient.h(39): warning C4800: 'BOOL' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\projects\corelib\source\testclient\include\testclient.h(53): warning C4800: 'BOOL' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\projects\corelib\source\testclient\include\testclient.h(66): warning C4800: 'BOOL' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\projects\corelib\source\testclient\include\testclient.h(72): warning C4800: 'BOOL' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\projects\corelib\source\testclient\include\testclient.h(78): warning C4800: 'BOOL' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+c:\projects\corelib\source\testclient\include\testclient.h(126): warning C4800: 'BOOL' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+  코드를 생성하고 있습니다...
+c:\projects\corelib\source\testclient\include\testclient.h(118): warning C4700: 초기화되지 않은 'Data' 지역 변수를 사용했습니다.
+ManifestResourceCompile:
+  모든 출력이 최신 상태입니다.
+Link:
+  c:\DevTools\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Projects\CoreLib\Debug\testClient.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Projects\CoreLib\Debug /LIBPATH:C:\Projects\CoreLib\lib gtestd.lib CoreLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\testClient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Projects\CoreLib\Debug\testClient.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Projects\CoreLib\Debug\testClient.lib" /MACHINE:X86 Debug\testClient.exe.embed.manifest.res
+  Debug\stdafx.obj
+  Debug\testClient.obj
+  Debug\TestIocp.obj
+  C:\Projects\CoreLib\Debug\CoreLib.lib
+TestIocp.obj : error LNK2019: "public: __thiscall CIocp::CIocp(void)" (??0CIocp@@QAE@XZ) 외부 기호(참조 위치: "public: __thiscall CTestIocp::CTestIocp(void)" (??0CTestIocp@@QAE@XZ) 함수)에서 확인하지 못했습니다.
+TestIocp.obj : error LNK2019: "public: virtual __thiscall CIocp::~CIocp(void)" (??1CIocp@@UAE@XZ) 외부 기호(참조 위치: "public: virtual __thiscall CTestIocp::~CTestIocp(void)" (??1CTestIocp@@UAE@XZ) 함수)에서 확인하지 못했습니다.
+C:\Projects\CoreLib\Debug\testClient.exe : fatal error LNK1120: 2개의 확인할 수 없는 외부 참조입니다.
+"C:\Projects\CoreLib\source\testClient\testClient.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:10.65
